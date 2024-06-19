@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <Spinner
+        android:id="@+id/Spinnertemas"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="20dp"/>
+    <EditText
+        android:id="@+id/user"
+        android:layout_width="220sp"
+        android:layout_height="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="70dp"
+        android:inputType="textPersonName"
+        android:hint="Usuario"
+        />
+    <EditText
+        android:id="@+id/Contraseña"
+        android:layout_width="220sp"
+        android:layout_height="50sp"
+        android:inputType="numberPassword"
+        android:hint="Contraseña"
+        android:layout_marginTop="20sp"
+        android:layout_marginStart="70dp"/>
+
+
+    <Button
+        android:id="@+id/Iniciar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Iniciar Sesion"
+        android:layout_marginStart="120dp"
+        android:layout_marginBottom="16dp"/>
+
+
+</LinearLayout>

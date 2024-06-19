@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:background">@color/lightBackground</item>
+
+    </style>
+    <style name="Tema1" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/Tema1</item>
+        <item name="colorPrimaryDark">@color/Tema1Dark</item>
+        <item name="colorAccent">@color/Tema1Accent</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:background">@color/Tema1background</item>
+    </style>
+
+    <style name="Tema2" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <item name="colorPrimary">@color/Tema2Primary</item>
+        <item name="colorPrimaryDark">@color/Tema2Dark</item>
+        <item name="colorAccent">@color/Tema2Accent</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@color/Tema2background</item>
+    </style>
+
+    <style name="Tema3" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/Tema3Primary</item>
+        <item name="colorPrimaryDark">@color/Tema3Dark</item>
+        <item name="colorAccent">@color/Tema3Accent</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@color/Tema3background</item>
+    </style>
+
+</resources>
